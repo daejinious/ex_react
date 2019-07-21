@@ -8,5 +8,5 @@
    #빈 폴더에서 실행해야 설치됨 <br>
 
 ## 3. `create react app`
-   # create-react-app 폴더경로
+   #create-react-app 폴더경로
 
