@@ -1,19 +1,36 @@
 ## 1. npm 설치   
    
 ## 2. `react package 설치`
-   * #npm install -g create-react-app@2.1.8 <br>
-   * #@오른쪽은 버전 <br>
-   * #빈 폴더에서 실행해야 설치됨 <br>
+   * $npm install -g create-react-app@2.1.8 <br>
+   * @오른쪽은 버전 <br>
+   * 빈 폴더에서 실행해야 설치됨 <br>
 
 ## 3. `create react app`
-   * #create-react-app 폴더경로
+   * $create-react-app 폴더경로
 
 
 ## 4. `server 실행`
-   * #npm run start
+   * $npm run start
 
 ## 5. `React app 배포 버전 만들기`
-   * #npm run build
+   * $npm run build
+
+## 20190726 실습 내용
+ESLint를 이용하여 코드 최적화 작업
+Airbnb 코드형식 적용
+
+## 20190725 실습 내용
+# `component를 이용하여 HTML 코딩`
+src/App.js
+===
+Pure Component를 사용하여 react 성능 향상 시키기. <br>
+[react성능 향상 시키기](https://wonism.github.io/react-pure-component/) 참조
+
+`react를 사용하지 않고 HTML 코딩`
+
+public/pure.html
+===
+
 
 ## 20190723 실습 내용
 `nginx 배포 관련 내용: https://codechacha.com/ko/deploy-react-with-nginx/`
