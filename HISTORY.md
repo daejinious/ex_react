@@ -16,6 +16,8 @@
    * #npm run build
 
 ## 20190723 실습 내용
+`nginx 배포 관련 내용: https://codechacha.com/ko/deploy-react-with-nginx/`
+
 src/index.js
 ===
 `import App from './App';`<br>
