@@ -20,24 +20,19 @@ ESLint를 이용하여 코드 최적화 작업
 Airbnb 코드형식 적용
 
 `pure.html을 Component를 사용하여 변경`
+- src/App.js
 
-src/App.js
-===
 
 
 ## 20190725 실습 내용
 `component를 이용하여 HTML 코딩`
-
 src/App.js
-===
 Pure Component를 사용하여 react 성능 향상 시키기. <br>
 [react성능 향상 시키기](https://wonism.github.io/react-pure-component/) 참조
+<br>
 
 `react를 사용하지 않고 HTML 코딩`
-
 public/pure.html
-===
-
 
 ## 20190723 실습 내용
 `nginx 배포 관련 내용: https://codechacha.com/ko/deploy-react-with-nginx/`
