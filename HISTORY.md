@@ -19,6 +19,11 @@
 ESLint를 이용하여 코드 최적화 작업
 Airbnb 코드형식 적용
 
+# `pure.html을 Component를 사용하여 변경`
+src/App.js
+===
+
+
 ## 20190725 실습 내용
 # `component를 이용하여 HTML 코딩`
 src/App.js
