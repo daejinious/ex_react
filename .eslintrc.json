@@ -24,6 +24,7 @@
   ],
   "rules": {
     "indent": ["error", 2],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "react/prop-types": 2,
     "comma-dangle": ["error", "never"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
