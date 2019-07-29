@@ -26,7 +26,8 @@ Airbnb 코드형식 적용
 
 ## 20190725 실습 내용
 `component를 이용하여 HTML 코딩`
-src/App.js
+- src/App.js
+
 Pure Component를 사용하여 react 성능 향상 시키기. <br>
 [react성능 향상 시키기](https://wonism.github.io/react-pure-component/) 참조
 <br>
@@ -38,11 +39,9 @@ public/pure.html
 `nginx 배포 관련 내용: https://codechacha.com/ko/deploy-react-with-nginx/`
 
 src/index.js
-===
 `import App from './App';`<br>
 `ReactDOM.render(<App />, document.getElementById('root'));`<br>
 -> App.js로 생성한 Component를 id 값이 root인 태그에 생성시켜준다.
 
 src/App.js
-===
 return(); <- () 안에 html tag가 하나는 꼭 있어야 에러가 나지 않는다.
