@@ -1,20 +1,22 @@
 {
   "env": {
     "browser": true,
+    "node": true,
     "es6": true
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "react-app"
   ],
   "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+    "Atomics": true,
+    "SharedArrayBuffer": true
   },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2017,
     "sourceType": "module"
   },
   "plugins": [
@@ -23,6 +25,7 @@
   "rules": {
     "indent": ["error", 2],
     "react/prop-types": 2,
+    "comma-dangle": ["error", "never"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
