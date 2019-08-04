@@ -16,7 +16,14 @@
    * $npm run build
 
 ## 20190804 실습 내용
-Component 파일화
+react event binding 및 setState 예습
+- src/App.js
+
+constructor를 이용한 초기화
+- src/App.js
+- src/component/*
+
+Component 파일화<br>
 `App.js 파일에 있는 component들을 src/component/ 아래 file화 작업`
 - src/component/*
 

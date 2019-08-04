@@ -1,13 +1,22 @@
 import React, { PureComponent } from 'react';
+import Props from 'prop-types';
 
 class TOC extends PureComponent {
+  static propTypes = {
+    datas: Props.array.isRequired
+  };
+
   render() {
+    const datas = this.props.datas;
+    const list = [];
+    for (const props in datas) {
+      list.push(<li key={datas[props].id}><a href={'/content/' + datas[props].id}>{datas[props].title}</a></li>);
+    }
+
     return (
       <nav>
         <ul>
-          <li><a href="1.html">HTML</a></li>
-          <li><a href="2.html">CSS</a></li>
-          <li><a href="3.html">JavaScript</a></li>
+          {list}
         </ul>
       </nav>
     );

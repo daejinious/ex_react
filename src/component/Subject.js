@@ -13,7 +13,7 @@ class Subject extends PureComponent {
     // return 문 안에는 하나의 최상의 태그를 사용하여야 한다.
     return (
       <header>
-        <h2>{title}</h2>
+        <h2><a href="/">{title}</a></h2>
         {subTitle}
       </header>
     );
