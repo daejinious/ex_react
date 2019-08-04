@@ -15,6 +15,11 @@
 ## 5. `React app 배포 버전 만들기`
    * $npm run build
 
+## 20190804 실습 내용
+Component 파일화
+`App.js 파일에 있는 component들을 src/component/ 아래 file화 작업`
+- src/component/*
+
 ## 20190726 실습 내용
 ESLint를 이용하여 코드 최적화 작업
 Airbnb 코드형식 적용
